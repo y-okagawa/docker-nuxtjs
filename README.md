@@ -1,13 +1,13 @@
 事前準備
 ```bash
-$ cd nuxtjs
+$ cd docker-nuxtjs
 $ docker-compose run --rm --no-deps frontend yarn install
 ```
 
 起動方法
 
 ```bash
-$ cd nuxtjs
+$ cd docker-nuxtjs
 $ docker-compose up
 ```
 
