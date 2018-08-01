@@ -1,0 +1,11 @@
+version: "3"
+services:
+  frontend:
+    build:
+      ./docker/node
+    volumes:
+      - ./app:/nuxtjs
+    working_dir: /nuxtjs
+    ports:
+      - 3000:3000
+    command: yarn dev
